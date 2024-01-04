@@ -19,7 +19,7 @@ Follow these instructions to get a copy of the project up and running on your lo
    git clone https://github.com/your-username/url-scanner.git
 
 
-###Usage
+### Usage
 - Enter the URL you want to scan when prompted.
 - The scanner will check the URL using the Google Safe Browsing API.
 - The result will be displayed, indicating whether the URL is potentially unsafe or appears to be safe.
