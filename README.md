@@ -21,12 +21,16 @@ URL Scanner is a simple web application that allows users to scan URLs using the
    git clone https://github.com/your-username/your-repo.git
 
 2. Navigate to project
+      ```bash
    cd /path/to/url-scanner
 
 3. Install Flask
+   ```bash
    pip install Flask
-5. Run the Flask Server
-  python server.py
+4. Run the Flask Server
+   
+    ```bash
+     python server.py
 
 
 
