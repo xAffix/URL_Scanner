@@ -1,25 +1,17 @@
 # URL Scanner
 
-This is a simple URL scanner that checks for potential risks or malicious content in a given URL. The scanner uses the Google Safe Browsing API to identify threats such as malware and social engineering.
+URL Scanner is a simple web application that allows users to scan URLs using the Google Safe Browsing API to check for potential security threats.
 
-## Getting Started
+## Features
 
-Follow these instructions to get a copy of the project up and running on your local machine.
+- Scan URLs for malware, social engineering, and unwanted software.
+- View scan results in a user-friendly interface.
 
-### Prerequisites
+## Prerequisites
 
-- Python 3.x
-- `requests` library (install with `pip install requests`)
+- Python installed on your system
+- Flask library installed (`pip install Flask`)
+- Google Safe Browsing API key (Replace 'YOUR_API_KEY' in `scanner.js` and `server.py` with your actual API key)
 
-### Installing
+## Project Structure
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/url-scanner.git
-
-
-### Usage
-- Enter the URL you want to scan when prompted.
-- The scanner will check the URL using the Google Safe Browsing API.
-- The result will be displayed, indicating whether the URL is potentially unsafe or appears to be safe.
