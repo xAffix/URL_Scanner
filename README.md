@@ -31,6 +31,3 @@ URL Scanner is a simple web application that allows users to scan URLs using the
    
     ```bash
      python server.py
-
-
-
