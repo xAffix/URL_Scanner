@@ -10,17 +10,16 @@
 <body>
     <div class="container">
         <header>
-            <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
             <h1>URL Scanner</h1>
         </header>
         <div class="result">
             {% if result %}
-                {{ result }}
+                <p>{{ result }}</p>
             {% else %}
-                No result available.
+                <p>No result available.</p>
             {% endif %}
         </div>
-        <a href="/">Back to Home</a>
+        <a href="/" class="back-link">Back to Home</a>
     </div>
 </body>
 </html>

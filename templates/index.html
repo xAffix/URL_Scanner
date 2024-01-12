@@ -10,17 +10,16 @@
 <body>
     <div class="container">
         <header>
-            <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
             <h1>URL Scanner</h1>
         </header>
-        <form method="post" action="/">
+        <form method="post" action="/scan"> <!-- Update the action attribute -->
             <label for="url">Enter URL:</label>
             <input type="text" id="url" name="url" required>
             <button type="submit">Scan</button>
         </form>
-            <div class="result">
-                
-            </div>
+        <div class="result">
+            
+        </div>
     </div>
 </body>
 </html>

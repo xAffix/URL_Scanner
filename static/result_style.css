@@ -17,6 +17,9 @@ body {
 
 header {
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header img {
@@ -26,7 +29,6 @@ header img {
 }
 
 header h1 {
-    display: inline-block;
     font-size: 24px;
     color: #333;
 }
@@ -34,12 +36,18 @@ header h1 {
 .result {
     margin-top: 20px;
     font-weight: bold;
-    color: #333;
+    color: #007BFF; /* Changed text color to blue */
+    font-size: 20px; /* Slightly increased font size */
 }
 
-a {
-    display: block;
+a.back-link {
+    display: inline-block; /* Changed to inline-block for better positioning */
     margin-top: 20px;
     color: #007BFF;
     text-decoration: none;
+    transition: color 0.3s ease; /* Added smooth color transition */
+}
+
+a.back-link:hover {
+    color: #0056b3; /* Darker blue on hover */
 }
