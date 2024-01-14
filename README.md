@@ -21,4 +21,4 @@ This was a very simple URL Scanner that used Google Safe Browsing API to check i
   ```bash
     python3 app.py
 - Open the localhost on port 5000
-- Put the URL and Check if it's safe or not
+- Paste the URL you want to test and check if it's safe or not
